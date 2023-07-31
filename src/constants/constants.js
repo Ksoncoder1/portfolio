@@ -1,0 +1,55 @@
+export const projects = [
+  {
+    title: 'Techblogs Blog App',
+    description: "Full Stack blogging application using React.js, Node.js, Express.js, CSS and MongoDB. JSON Web Tokens (JWT) for secure authentication",
+      image: '/images/5.png',
+      tags: ['React', 'Node', 'Express', 'MongoDB', 'JWT'],
+    source: 'https://github.com/Ksoncoder1/mishlyblog.git',
+    visit: 'https://github.com/Ksoncoder1/mishlyblog.git',
+    id: 0,
+  },
+  {
+    title: 'SafiriExpeds Travel Agency',
+    description: "This is a fully responsive React Travel application built using React.js, Tailwind CSS. It is compatible with all devices",
+      image: '/images/6.png',
+      tags: ['React', 'Tailwind CSS', 'Vite'],
+    source: 'https://safiriexpeds.vercel.app/',
+    visit: 'https://github.com/Ksoncoder1/safiriexpeds.git',
+    id: 0,
+  },
+  {
+    title: 'TamuSana Restaurant',
+    description: "This is a fully responsive website build from scratch using React, Next js, tailwind css. It is compatible with all devices.",
+      image: '/images/1.png',
+      tags: ['Next', 'Tailwind', 'React'],
+    source: 'https://tamusana.netlify.app/',
+    visit: 'https://github.com/Ksoncoder1/tamurestaurant.git',
+    id: 0,
+  },
+  {
+    title: 'Modern Bank App',
+    description:"Modern bank app payment method. The technologies I used include react js,tailwind css",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript'],
+    source: 'https://modernvest.netlify.app',
+    visit: 'https://github.com/Ksoncoder1/modernbankapp.git',
+    id: 1,
+  },
+  {
+    title: 'Faraja Real Estates',
+    description: "Real Estate website in react js",
+      image: '/images/3.png',
+      tags: ['React'],
+    source: 'https://farajareals.netlify.app',
+    visit: 'https://farajareals.netlify.app',
+    id: 2,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2019, text: 'Freelance Web Developer', },
+  { year: 2020, text: 'Freelance Web Developer', },
+  { year: 2021, text: 'Worked as a Junior Developer', },
+  { year: 2022, text: 'Kunshan Softmit (Remote Software Developer)', },
+  { year: 2023, text: 'Working on Mern Stack personal projects', },
+];
